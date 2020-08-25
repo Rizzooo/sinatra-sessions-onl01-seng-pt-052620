@@ -34,7 +34,6 @@ class App < Sinatra::Base
     session[:id] = 1
     
     redirect '/fetch_session_id'
-
   end
 
   get '/fetch_session_id' do
